@@ -1,4 +1,4 @@
-student_id,age,gender,parental_education,study_hours_week,attendance_rate,extracurricular,sleep_hours,previous_scores,tutoring,internet_quality,family_income,health_status,final_grade
+id_estudante,idade,genero,escolaridade_pais,horas_estudo_semanal,frequencia_escolar,extracurricular,horas_de_sono,notas_anteriores,aula_reforco,qualidade_internet,renda_familiar,estado_de_saude,nota_final
 STD01416,22,M,bachelor,5.66,69.55,Yes,6.49,49.41,No,Good,Medium,Good,85.39
 STD01345,19,M,bachelor,13.3,58.82,Yes,8.12,50.29,No,,Medium,Good,98.43
 STD01705,25,M,master,10.43,59.72,Yes,6.6,71.64,No,Good,Medium,Good,100
