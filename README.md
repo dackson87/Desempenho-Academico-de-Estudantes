@@ -1,3 +1,9 @@
+# Projeto de Machine Learning – Desempenho Estudantil
+
+Este repositório contém todas as etapas do projeto desenvolvido ao longo da disciplina, desde a análise exploratória até o relatório final.
+
+## Estrutura do Repositório
+
 # 1 - Desempenho-Academico-de-Estudantes(students_performance)
 Componentes: 
 Alysson Kleyber de Medeiros - 01688338
