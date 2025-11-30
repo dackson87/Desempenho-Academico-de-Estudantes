@@ -1,0 +1,30 @@
+# Etapa 4 – Otimização dos Modelos
+
+Nesta etapa foram aplicadas técnicas de otimização para melhorar o desempenho do modelo baseline.
+
+## Arquivo Principal
+- **04_Otimizacao.ipynb**
+
+## Conteúdo da Etapa
+- Definição dos hiperparâmetros a serem otimizados
+- Execução do processo de tuning (GridSearch, RandomSearch ou similar)
+- Seleção do melhor modelo
+- Avaliação final no conjunto de teste
+
+## Resultados Finais
+- **Teste (final)**  
+  - MSE: 0.0361  
+  - RMSE: 0.1899  
+  - MAE: 0.0987  
+  - R²: 0.9645  
+
+- **Validação (melhor modelo)**  
+  - MSE: 0.0365  
+  - RMSE: 0.1910  
+  - MAE: 0.1003  
+  - R²: 0.9585  
+
+- **CV RMSE (melhor)**  
+  - 0.2258
+
+- Métricas salvas em `results/metrics_tuning.csv`
