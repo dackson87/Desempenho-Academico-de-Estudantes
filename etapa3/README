@@ -1,0 +1,13 @@
+# Etapa 3 – Modelo Baseline
+
+Nesta etapa foi criado o primeiro modelo simples para servir como referência de desempenho (baseline).
+
+## Arquivo Principal
+- **03_Modelo_Baseline.ipynb**
+
+## Conteúdo da Etapa
+- Seleção do modelo baseline
+- Treinamento no conjunto de treino
+- Avaliação no conjunto de validação
+- Métricas usadas: MSE, RMSE, MAE, R²
+- Comparação do baseline com expectativas iniciais
