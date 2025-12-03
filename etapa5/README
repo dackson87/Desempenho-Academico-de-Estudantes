@@ -1,0 +1,144 @@
+Etapa 5 — Apresentação Final e Relatório
+Objetivo da Etapa
+
+A Etapa 5 consolida todo o trabalho desenvolvido nas etapas anteriores e entrega a versão final do projeto. Aqui são reunidos o relatório técnico completo, a apresentação final e a organização definitiva do repositório.
+
+O foco é demonstrar domínio dos dados, clareza metodológica, justificativas técnicas e capacidade de comunicação.
+
+Entregáveis da Etapa
+1. Relatório Final Completo
+
+Local: docs/RELATORIO_FINAL.md
+
+O relatório contém:
+
+- Resumo Executivo
+
+- Introdução
+
+- Exploração dos Dados (EDA)
+
+- Pré-processamento
+
+- Modelagem
+
+- Otimização
+
+- Resultados Finais e Conclusões
+
+- Referências
+
+O documento foi elaborado com base em tudo realizado nas etapas 1 a 4, utilizando:
+
+- Dataset analisado: students_performance.csv
+
+- Resultados da modelagem baseline
+
+- Resultados finais após otimização (Etapa 4):
+
+Teste (modelo final)
+
+- MSE: 0.0361
+
+- RMSE: 0.1899
+
+- MAE: 0.0987
+
+- R²: 0.9645
+
+Validação (melhor modelo da busca)
+
+- MSE: 0.0365
+
+- RMSE: 0.1910
+
+- MAE: 0.1003
+
+- R²: 0.9585
+
+Cross-Validation (melhor modelo)
+
+- RMSE médio: ~0.2258
+
+Esses valores foram integrados ao relatório final.
+
+2. Apresentação Final (20–25 min)
+
+Slides contendo:
+
+- Contexto do problema
+
+- Estrutura do projeto
+
+- Principais achados da EDA
+
+- Passos do pré-processamento
+
+- Comparação dos modelos
+
+- Resultados finais
+
+- Conclusões e próximos passos
+
+3. Repositório Organizado
+
+Estrutura final recomendada:
+/
+├── etapa1/
+│   ├── 01_EDA.ipynb
+│   └── README.md
+├── etapa2/
+│   ├── 02_Preprocessamento.ipynb
+│   └── README.md
+├── etapa3/
+│   ├── 03_Modelo_Baseline.ipynb
+│   └── README.md
+├── etapa4/
+│   ├── 04_Otimizacao.ipynb
+│   └── README.md
+├── etapa5/
+│   └── README.md  
+├── docs/
+│   └── RELATORIO_FINAL.md
+├── README.md
+└── students_performance.csv
+## Conteúdo Desenvolvido na Etapa
+Relatório técnico criado
+
+Com todas as seções obrigatórias preenchidas, incluindo:
+
+- Estatísticas descritivas
+
+- Tabelas da EDA
+
+- Visualizações mais importantes
+
+- Métodos de pré-processamento utilizados
+
+- Comparação de modelos
+
+- Métricas reais obtidas na Etapa 4
+
+- Conclusões baseadas nos resultados
+
+- Limitações e trabalhos futuros
+
+## Organização final do repositório
+
+Pastas padronizadas por etapa, documentação completa, arquivo final em docs/, tudo pronto para avaliação.
+
+## Preparação da apresentação final
+
+Estrutura sugerida, tópicos indispensáveis e narrativa recomendada.
+
+## Resultado Final
+
+Com esta etapa, o projeto está:
+
+- Totalmente documentado
+
+- Com relatório completo e profissional
+
+- Reproduzível, organizado e pronto para apresentação
+
+- Contendo o modelo final com ótimo desempenho (R² acima de 0.96)
